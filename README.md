@@ -1,23 +1,32 @@
 # Practico3-javascript
 
-1. Cambiar el texto de una etiqueta <p>Hola Mundo</p> por un texto "Buenas tardes". En tiempo de ejecución.
+1. Cambiar el texto de una etiqueta
+ 
+ 	<p>Hola Mundo</p> 
 
-2. Obtener el HTML de una etiqueta <p>Mi nombre es Alex</p> e insertar en un 
-  <div id="resultado"></div>
+   por un texto "Buenas tardes". En tiempo de ejecución.
+
+2. Obtener el HTML de una etiqueta <p>Mi nombre es Alex</p> e insertar en un
+    
+    <div id="resultado"></div>
   
-3. Escribir apellido en una etiqueta <p>Hola Alex [[apellido]] </p> mediante el click en un botón.
+3. Escribir apellido en una etiqueta
+
+ 	<p>Hola Alex [[apellido]] </p> 
+  
+   mediante el click en un botón.
    
 4. Desplegar una lista con productos: Manzana, Pera, Ajo en un HTML ul, li en un div id="resultado" al dar click en un boton "Ver lista"
 
     Resultado esperado:
    
-    <div id="resultado">
-    <ul>
-    		<li>Manzana</li>
-    		<li>Pera</li>
-    		<li>Ajo</li>
-    	</ul>
-    </div>
+	  <div id="resultado">
+	    <ul>
+	    	<li>Manzana</li>
+	    	<li>Pera</li>
+	    	<li>Ajo</li>
+	    </ul>
+	</div>
     
 5. Dar click en un ítem de la lista de productos y obtener el nombre en un div con id="resultado"
    
@@ -26,7 +35,8 @@
    a. Dar click en "agregar" y carga el ítem en un div resultado dentro de en una etiqueta <p>
 
   
-7. Crear un input de tipo text y botón: 
+7. Crear un input de tipo text y botón:
+    
     - Agregar texto a una lista ul,li c/vez que se pulsa el botón
       
     -  Agregar un botón al lado de c/elemento de la lista con el texto: "Eliminar"
@@ -37,9 +47,10 @@
           
     		- Lista ejemplo:
     
-    		  * Manzana [Eliminar]
-    			* Naranja [Eliminar]
-			...
+    		* Manzana [Eliminar]
+       
+    		* Naranja [Eliminar]
+			
 
    
 8. Crear un formulario con los siguientes inputs:
@@ -56,16 +67,16 @@
       
     - Tabla ejemplo:
       
-  			<table>
-				<tr>
-					<td>Nombre</td>
-					<td>Apellido</td>
-					<td>28</td>
-					<td>
-						<button>Eliminar</button>
-					</td>
-				</tr>
-			</table>
+  		<table>
+			<tr>
+				<td>Nombre</td>
+				<td>Apellido</td>
+				<td>28</td>
+				<td>
+				<button>Eliminar</button>
+				</td>
+			</tr>
+		</table>
 
 	
 
