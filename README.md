@@ -8,8 +8,8 @@
    
 4. Desplegar una lista con productos: Manzana, Pera, Ajo en un HTML ul, li en un div id="resultado" al dar click en un boton "Ver lista"
 
-    Resultado esperado:
-	```<div id="resultado">
+    ```Resultado esperado:
+   	<div id="resultado">
    
 	     <ul>
    
@@ -20,7 +20,7 @@
 	    	<li>Ajo</li>
 	    </ul>
    
-	   </div>```
+	   </div>
     
 6. Dar click en un ítem de la lista de productos y obtener el nombre en un div con id="resultado"
    
@@ -59,18 +59,17 @@
      
     - Al pulsar "Eliminar": Remover elemento de la tabla
       
-    - Tabla ejemplo:
-          
-  	```<table>		
-		<tr>
-		    <td>Nombre</td>
-		    <td>Apellido</td>
-		    <td>28</td>
-		    <td>
-		    <button>Eliminar</button>
-		    </td>
-		</tr>
-	  </table>```
+	   ```Tabla ejemplo:         
+	  	<table>		
+			<tr>
+			    <td>Nombre</td>
+			    <td>Apellido</td>
+			    <td>28</td>
+			    <td>
+			    <button>Eliminar</button>
+			    </td>
+			</tr>
+		  </table>
 
 	
 
