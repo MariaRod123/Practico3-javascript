@@ -4,7 +4,7 @@
 
 2. Obtener el HTML de una etiqueta `<p> Mi nombre es Alex </p>` e insertar en un `<div id="resultado"> </div>`
   
-3. Escribir apellido en una etiqueta `<p>Hola Alex [[apellido]] </p>` mediante el click en un botón.
+3. Escribir apellido en una etiqueta `<p> Hola Alex [[apellido]] </p>` mediante el click en un botón.
    
 4. Desplegar una lista con productos: Manzana, Pera, Ajo en un HTML ul, li en un div id="resultado" al dar click en un boton "Ver lista"
 
@@ -26,7 +26,7 @@
    
 7. Dar click en un ítem de producto y cargar el nombre en un input type="text"
    
-   a. Dar click en "agregar" y carga el ítem en un div resultado dentro de en una etiqueta "<p>"
+   a. Dar click en "agregar" y carga el ítem en un div resultado dentro de en una etiqueta `<p>`
 
   
 8. Crear un input de tipo text y botón:
@@ -41,9 +41,9 @@
           
     		Lista ejemplo:
     
-    		* Manzana[Eliminar]
+    		* Manzana [Eliminar]
        
-    		* Naranja[Eliminar]
+    		* Naranja [Eliminar]
 			
 
    
