@@ -1,0 +1,32 @@
+body{
+    background-color: rgb(233, 132, 132);
+
+}
+.container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    padding: 100px;
+
+}
+
+#boton_html{
+    background-color: rgb(184, 56, 56);
+    color:aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: large;
+    border-radius: 10px;
+    border-color: transparent;
+    cursor:pointer;
+
+}
+#boton_html:hover{
+    background-color: rgb(70, 3, 3);
+
+}
+
+
+
