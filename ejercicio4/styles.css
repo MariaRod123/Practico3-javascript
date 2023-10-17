@@ -1,0 +1,33 @@
+body{
+    background-color:rgb(221, 124, 156);
+
+}
+.container{
+    
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 160px;
+}
+
+#verLista{
+    background-color: rgb(15, 14, 14);
+    color:aliceblue;
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+    
+}
+#listaProductos{
+    display:none;
+    
+
+}
+li{
+    list-style-type: square;
+    color:rgb(109, 4, 4);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        
+}
