@@ -1,0 +1,56 @@
+body{
+    margin-top: 100px;
+    background:rgb(229, 234, 235) ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+    background-color: rgb(170, 134, 252) ;
+    width:500px ;
+    height: 300px;
+    border-radius: 5px;
+
+}
+
+.input{
+    border-color:transparent;
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 15px;
+    font-size: 14px;
+
+}
+
+.button{
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    border-color: transparent;
+    background-color: rgb(59, 118, 245);
+    font-size: 14px;
+    font-weight: bold;
+    color:aliceblue;
+}
+
+.button:hover{
+    cursor:pointer;
+    background-color:rgb(56, 6, 194);
+}
+
+p{
+    color:rgb(248, 244, 244) ;
+    
+}
+#apellido{
+    color:rgb(248, 244, 244);
+    font-weight: bold;
+    
+}
