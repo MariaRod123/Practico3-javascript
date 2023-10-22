@@ -9,9 +9,11 @@ function escribirApellido() {
   let apellido = input_apellido.value;
 
   if (apellido !== '') {
-    let contenido_parrafo = parrafo.textContent; // captura el contenido inicial del párrafo
-    parrafo.textContent = contenido_parrafo + ' ' + apellido; //se agrega el apellido al contenido inicial
+    let contenido_parrafo = parrafo.textContent; 
+    parrafo.textContent = contenido_parrafo + ' ' + apellido; 
+    input_apellido.value='';
   } else {
-    parrafo.textContent = "No has ingresado ningún apellido";
+    window.alert("No has ingresado ningún apellido");
+    
   }
 }
