@@ -1,0 +1,65 @@
+body{
+    background: rgb(175, 174, 174);
+    display:flex;
+    justify-content: center;
+       
+}
+.container{
+    display:flex;
+    flex-direction: column;   
+    gap:10px;
+    padding: 10px;
+    width: 300px;
+    
+}
+h2{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:rgb(56, 74, 75);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    cursor: pointer;   
+    margin-bottom: 10px;
+    color: aliceblue;
+    border:transparent;
+    border-radius:5px;
+    background-color: rgb(11, 107, 114);
+    height: 30px;
+    text-align: center;
+    padding: 8px;
+    
+  }
+  li:hover{
+    background-color: rgb(1, 48, 51);
+  }
+
+#nombre_producto{
+    background-color: rgb(246, 243, 248);
+    border:transparent ;
+    border-radius: 5px;
+    height: 30px;
+    padding:8px;
+}
+
+#agregar_producto{
+    cursor:pointer;
+    background-color:rgb(11, 107, 114);
+    border:transparent ;
+    border-radius: 20px;
+    height: 40px;   
+    color:aliceblue;
+    font-weight: bold;
+}
+#agregar_producto:hover{
+    background-color: rgb(1, 48, 51);
+}
+
+#resultados{
+    color:rgb(1, 48, 51);
+    font-weight: bold;
+}
