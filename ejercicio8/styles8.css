@@ -1,0 +1,22 @@
+body{
+    background-color:beige;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+.container{
+    padding: 40px;
+}
+
+#nombre, #apellido, #edad, #boton_agregar{
+    border-radius:3px;
+    border-color:rgb(156, 155, 155);
+}
+#boton_agregar{
+    background-color: rgb(120, 129, 129);
+    color:black;
+    font-weight: bold;
+}
+#boton_agregar:hover{
+    background-color: rgb(22, 22, 22);
+    color:aliceblue;
+}
