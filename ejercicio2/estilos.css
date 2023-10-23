@@ -1,7 +1,11 @@
 body{
-    background-color: rgb(233, 132, 132);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color:rgb(43, 1, 1);
+    background-color: rgb(185, 183, 183);
+    font-family: 'Courier New', Courier, monospace;
+    padding:60px ;
+    font-weight: bold;
+    color:rgb(41, 41, 41);
+    display:flex;
+    justify-content: center;
 
 }
 .container{
@@ -10,23 +14,27 @@ body{
     justify-content: center;
     align-items: center;
     gap:10px;
-    padding: 100px;
+    width:500px;
+    height: 300px;
+    border-radius: 5px;
+    background-color:rgb(139, 138, 138);
 
 }
 
 #boton_html{
-    background-color: rgb(184, 56, 56);
+    background-color: rgb(84, 82, 240);
     color:aliceblue;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Courier New', Courier, monospace; 
     font-weight: bold;
     font-size: large;
-    border-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
     border-color: transparent;
     cursor:pointer;
 
 }
 #boton_html:hover{
-    background-color: rgb(70, 3, 3);
+    background-color: rgb(24, 0, 158);
 
 }
 
