@@ -1,6 +1,8 @@
 body{
     background-color: rgb(201, 148, 250);
     padding:60px ;
+    display:flex;
+    justify-content: center;
 
 }
 #parrafo{
@@ -15,6 +17,10 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width:500px;
+    height: 300px;
+    border-radius: 5px;
+    background-color:rgb(122, 120, 120);
     
 }
 
@@ -22,13 +28,13 @@ body{
     background-color: rgb(133, 55, 206);
     color:aliceblue;
     font-family: 'Courier New', Courier, monospace;
-    font-weight: bolder;
-    font-size: large;
+    font-weight: bold;
+    font-size: medium;
     border-radius: 4px;
     border-color:transparent;
     cursor: pointer;
     height: 50px;
-    width: 130px;
+    width: 140px;
 }
 
 .boton:hover{
